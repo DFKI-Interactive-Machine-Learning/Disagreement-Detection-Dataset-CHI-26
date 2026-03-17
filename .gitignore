@@ -1,0 +1,16 @@
+.DS_Store
+._*
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+mscoco_images/
+mscoco_images_test/
+mscoco_images_test_run2/
+mscoco_images_test_run3/
+mscoco_images_aoi_test/
+
+*.part
+._README.md
