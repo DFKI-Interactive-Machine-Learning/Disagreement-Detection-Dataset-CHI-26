@@ -143,8 +143,8 @@ or:
 ```text
 stimuli,split
 ```
-
-**Edit (Thursday, 1 October 2026):** Two gaze features listed in Table 1 of the paper, *Dwell Time Before First Transition* and *Transitions Ratio Between AOIs*, were missing from the gaze feature tables. They are now included as two new columns in `Gaze_Data_Features_Extracted_All.csv`, `Gaze_Data_Features_Extracted_3s.csv`, and `Gaze_Data_Features_Extracted_11s.csv`:
+## Edits
+**Thursday, 1 October 2026:** Two gaze features listed in Table 1 of the paper, *Dwell Time Before First Transition* and *Transitions Ratio Between AOIs*, were missing from the gaze feature tables. They are now included as two new columns in `Gaze_Data_Features_Extracted_All.csv`, `Gaze_Data_Features_Extracted_3s.csv`, and `Gaze_Data_Features_Extracted_11s.csv`:
 
 - `dwell_time_before_first_transition` (ms): total fixation duration on the first AOI viewed (image or caption) before gaze first moves to the other AOI.
 - `transitions_ratio_between_aois` (unitless): number of image–caption transitions divided by the number of consecutive fixation pairs on the AOIs.
